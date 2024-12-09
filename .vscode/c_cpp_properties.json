@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include",
+        "${workspaceFolder}/build/_deps/dotenv-cpp-src/include/laserpants/dotenv",
+        "${workspaceFolder}/build/_deps/crow-src/include"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/clang++",
+      "intelliSenseMode": "macos-clang-x64",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/**",
+          "/opt/homebrew/include",
+          "${workspaceFolder}/build/_deps/dotenv-cpp-src",
+          "${workspaceFolder}/build/_deps/crow-src"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}
