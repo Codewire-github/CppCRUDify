@@ -46,7 +46,7 @@ set(MYSQL_CONNECTOR_LIBRARY /opt/homebrew/Cellar/mysql-connector-c++/9.1.0/lib/l
 
 ```
 
-### 4. Build the project using CMake
+### 5. Build the project using CMake
 ```bash
 mkdir build
 cd build
@@ -63,7 +63,7 @@ Then build the cmake project:
 cmake ..
 make
 ```
-### 5. Run the application
+### 6. Run the application
 ```bash
 ./CppCRUDify
 ```
